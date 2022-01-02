@@ -1,6 +1,6 @@
-# Tasks Reminder with Alarm
+# Tasks Reminder
 
-* Hey👋 Guys!! So here I have created a 👨‍💻Tasks Reminder with Alarm⏰. 
+* Hey👋 Guys!! So here I have created a 👨‍💻Tasks Reminder. 
 
 ## 👌 Features
 
