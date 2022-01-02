@@ -2,5 +2,5 @@ import axios from "axios"
 
 
 export const axiosInstance =axios.create({
-    baseURL:"https://tasks-reminders.herokuapp.com/api/",
+    baseURL:"https://tasks-reminders.herokuapp.com/",
 })
