@@ -9,7 +9,7 @@ import {
   updateTaskSuccess,
   updateTaskFailure,
 } from "./TaskActions";
-import { axiosInstance } from "../../config";
+import { axiosInstance } from "../config";
 
 // get all tasks
 export const getTasks = async (dispatch) => {
@@ -17,7 +17,7 @@ export const getTasks = async (dispatch) => {
   let searchParams=new URLSearchParams(window.location.search).get("completed");
   try {
     const res =await axiosInstance.get(
-      `${searchParams ? "?completed=" + searchParams : "list-timers"}`
+      `${searchParams ? "list-timers?completed=" + searchParams : "list-timers"}`
     );
     dispatch(getTasksSuccess(res.data));
   } catch (err) {
@@ -29,7 +29,7 @@ export const getTasks = async (dispatch) => {
 export const createTask = async (task, dispatch) => {
   dispatch(createTaskStart());
   try {
-    const res = await axios.post("/timer", task);
+    const res = await axiosInstance.post("/timer", task);
     dispatch(createTaskSuccess(res.data));
   } catch (err) {
     dispatch(createTaskFailure());
@@ -40,11 +40,12 @@ export const createTask = async (task, dispatch) => {
 export const updateTask = async (task, dispatch) => {
   dispatch(updateTaskStart());
   try {
-    const res = await axios.put("/timer", task);
+    const res = await axiosInstance.put("/timer", task);
     console.log(res.data);
     dispatch(updateTaskSuccess(res.data));
   } catch (err) {
     dispatch(updateTaskFailure());
   }
 };
+
 
