@@ -1,9 +1,11 @@
 const express = require("express");
+const path=require("path")
 const app = express();
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 const tasks = require("./routes/tasks");
-const PORT= process.env.PORT || 8800
+const PORT= process.env.PORT || 8800;
+
 dotenv.config();
 
 mongoose
@@ -17,8 +19,9 @@ mongoose
   });
 
 app.use(express.json()); //to accept json files as default
-app.use("/api", tasks);
+app.use("/", tasks);
 app.use(express.static(path.join(__dirname, "/frontend/build")));
+
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '/frontend/build', 'index.html'));
 });
