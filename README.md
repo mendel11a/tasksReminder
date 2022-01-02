@@ -17,6 +17,6 @@
 
 So Now Onwards , you don't have a need to remember your tasks , also you can use it on any device, its totally responsive too.
 
-## Then , Go and Check Now : ✔ [Tasks Reminder with Alarm](https://tasks-reminder-with-alarm.netlify.app/) ✔ 
-### It is hosted on Netlify, Here is the Link : https://tasks-reminder-with-alarm.netlify.app/
+## Then , Go and Check Now : ✔ [Tasks Reminder with Alarm](https://tasks-reminders.herokuapp.com/) ✔ 
+### It is hosted on Netlify, Here is the Link : https://tasks-reminders.herokuapp.com/
 
