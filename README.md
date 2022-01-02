@@ -13,6 +13,7 @@
 * NodeJs (Express)
 * React (Hooks,Context)
 * ES6 Javascript
+* MongoDB
 
 
 So Now Onwards , you don't have a need to remember your tasks , also you can use it on any device, its totally responsive too.
