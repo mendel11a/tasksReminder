@@ -5,8 +5,11 @@
 ## The Home Page
 ![image](https://user-images.githubusercontent.com/57116911/153309287-77dae9fe-ed3c-45f1-8d97-465eb5a67dfc.png)
 
-## Showing the tasks That ended
+## Showing the tasks that ended
 ![image](https://user-images.githubusercontent.com/57116911/153309531-3de75faa-c078-4b50-b4c4-2806ec5f3fdc.png)
+
+## Showing the tasks that are still pending
+![image](https://user-images.githubusercontent.com/57116911/153309677-7a96d05b-6342-454c-869d-e135d4ab967a.png)
 
 ## 👌 Features
 
