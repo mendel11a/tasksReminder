@@ -2,6 +2,10 @@
 
 * Hey👋 Guys!! So here I have created a 👨‍💻Tasks Reminder with Alarm⏰. 
 
+## The Home Page
+![image](https://user-images.githubusercontent.com/57116911/153309287-77dae9fe-ed3c-45f1-8d97-465eb5a67dfc.png)
+
+
 ## 👌 Features
 
 * You can Add your Tasks Here with Proper Date and time when you want to complete them
