@@ -5,6 +5,8 @@
 ## The Home Page
 ![image](https://user-images.githubusercontent.com/57116911/153309287-77dae9fe-ed3c-45f1-8d97-465eb5a67dfc.png)
 
+## Showing the tasks That ended
+![image](https://user-images.githubusercontent.com/57116911/153309531-3de75faa-c078-4b50-b4c4-2806ec5f3fdc.png)
 
 ## 👌 Features
 
